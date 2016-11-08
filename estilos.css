@@ -13,6 +13,30 @@ header{
 	box-sizing: border-box;
 }
 
+
+
+#logo{
+	width: 30%;
+	float:left;
+}
+
+#opcions-menu{
+	width:70%;
+	float: left;
+}
+
+#idiomes{
+	width:50%;
+	float: left;
+}
+#cercador{
+		width:50%;
+	float: left;
+}
+
+#opcions-menu-general-registre{
+	clear:both;
+}
 #agenda-concerts{
 	width:33%;
 	float:left;	
