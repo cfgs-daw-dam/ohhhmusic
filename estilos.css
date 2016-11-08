@@ -1,0 +1,61 @@
+#contenedor {
+	width: 80%;
+	max-width: 1170px;
+	margin:0 auto;
+	overflow: hidden;
+	background: #F8D582;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	background:#7E8AFC;
+	box-sizing: border-box;
+}
+
+#agenda-concerts{
+	width:33%;
+	float:left;	
+	background: #4FFEB2;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#ranking-musics{
+	width:33%;
+	float:left;	
+	background: #F95C5C;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#banners-patrocinadors{
+	width:33%;
+	float:left;
+	background: #7EA5FE;	
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.separador{
+	clear: both;
+}
+footer{
+	clear: both;
+	width: 100%;
+	background:#BBBCB9;
+}
+@media screen and (max-width:800px){
+	body{
+		background:#F65555;
+	}
+	#agenda-concerts,#ranking-musics,#banners-patrocinadors{
+		width:100%;
+	}
+
+
+@media screen and (max-width:400px){
+	aside{
+		display: none;
+	}	
+}
