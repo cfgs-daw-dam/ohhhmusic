@@ -1,0 +1,167 @@
+#contenedor {
+	width: 80%;
+	max-width: 1170px;
+	margin:0 auto;
+	overflow: hidden;
+	background: #F8D582;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+	background:#7E8AFC;
+	box-sizing: border-box;	
+}
+
+
+
+.logo{
+	width: 20%;
+	float:left;
+
+}
+
+.logo img{
+	width: 40%;
+	height: auto;
+	padding: 10px;
+}
+.opcions-menu{
+	width:80%;
+	float: left;
+}
+
+.idiomes{
+	width:50%;
+	float: left;
+	
+}
+nav ul, .idiomes ul, .registre ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li, .idiomes li, .registre li{
+float:left;
+}
+
+.registre{
+	text-align: right;
+}
+nav a, .idiomes a, .registre a{
+    display: block;
+    padding: 8px;
+    
+
+}
+
+.cercador{
+		width:50%;
+	float: left;
+}
+
+.opcions-menu-general-registre{
+	clear:both;
+}
+nav, .registre{
+	float:left;
+}
+
+nav{
+	width: 75%;
+}
+.registre{
+	width: 25%;
+	
+}
+
+#slider img{
+	width: 100%;
+	height: auto;
+}
+
+#agenda-concerts{
+	width:33%;
+	float:left;	
+	background: #4FFEB2;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#ranking-musics{
+	width:33%;
+	float:left;	
+	background: #F95C5C;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#banners-patrocinadors{
+	width:34%;
+	float:left;
+		
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#banners-patrocinadors img{
+	width: 100%;
+	height: auto;
+}
+
+
+footer{	
+	clear: both;	
+	width: 100%;
+	background:#BBBCB9;
+	border-top: 2px solid;
+
+}
+
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.avis-legal{
+	width:33%;
+	float:left;	
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.menu-captacio{
+	width:33%;
+	float:left;	
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.contacta{
+	width:34%;
+	float:left;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+
+@media screen and (max-width:900px){
+	body{
+		background:#F65555;
+	}
+	#agenda-concerts,#ranking-musics,#banners-patrocinadors{
+		width:100%;
+	}
+
+
+@media screen and (max-width:500px){
+	aside, footer{
+		display: none;
+	}
+
+	
+}
