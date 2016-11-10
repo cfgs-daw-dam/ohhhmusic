@@ -32,7 +32,7 @@ header{
 }
 
 .idiomes{
-	width:50%;
+	width: 100%;
 	float: left;
 	
 }
@@ -57,10 +57,6 @@ nav a, .idiomes a, .registre a{
 
 }
 
-.cercador{
-		width:50%;
-	float: left;
-}
 
 .opcions-menu-general-registre{
 	clear:both;

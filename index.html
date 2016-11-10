@@ -15,15 +15,13 @@
 			<div class="logo"><a href="index.html"><img src="imatges/ohhhmusic.png" alt="Ohhhmusic"></a></div>
 				
 			<div class="opcions-menu">
-					<div class="opcions-menu-superior">
-						<div class="idiomes">
+					<div class="idiomes">
 							<ul>
 							<li><a href="http://">Español</a></li>
 							<li><a href="http://">Català</a></li>
 							</ul>
-						</div>
-						<div class="cercador">Cercador</div>
 					</div>
+
 					<div class="opcions-menu-general-registre">
 						<nav>
 							<ul>
@@ -47,6 +45,14 @@
 			<img src="imatges/concerts-local-musics.jpg" title="Actualitat de concerts en la teva localitat">
 		</div>
 
+		<div class="cercador">
+			<form action="index.php" method="post">
+					<input type="text" name="cercar" class="caixacerca" placeholder="Introduïr Local, Músic, Gènere ....">
+					<button type="submit" name="cercar" class="btncercar">Cercar</button>					
+			</form>
+
+		</div>
+		
 		<section id="agenda-concerts">
 				<h2>Agenda concerts</h2>
 				<article>lloc - músic - gènere - data concert</article>
@@ -104,9 +110,7 @@
 				</ul>
 			</div>
 		</footer>
-
-
 	</div>
-	
+
 </body>
 </html>
