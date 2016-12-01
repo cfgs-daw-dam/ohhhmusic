@@ -1,0 +1,119 @@
+
+/*LOCAL*/
+/*------------START estils local--------------------*/
+
+#contenedor {
+	background: #Ffffff;
+
+}
+
+footer{
+	background: #ffffff;
+}
+
+.opcions-menu-intranet{
+	width:80%;
+	float: left;
+	background: #ffffff;
+}
+
+.logo{
+	background: #ffffff;
+}
+
+.opcions-menu-intranet nav{
+	float:left;
+	width: 60%;
+	box-sizing: border-box;
+	padding: 20px;
+}
+.usuari-intranet{
+	float: left;
+	width: 40%;
+	text-align: right;
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+.usuari-intranet h2{
+	margin-top:0px;
+}
+#usuari{
+	clear:both;
+	width:30%;
+	box-sizing: border-box;
+	padding: 20px;
+	float:left;
+	background: #DEE9FC;
+	
+}
+
+.perfil{
+	width:100%;
+}
+.perfil img, .publicitat img{
+	width: 100%;
+	height: auto;
+}
+
+.llistatmusics img{
+	width: 50%;
+	height: auto;
+}
+
+.llistatmusics, .llistatmusics td{
+	text-align: left;
+}
+
+#localconcerts{
+	width:70%;
+	box-sizing: border-box;
+	float:right;
+	padding: 0 20px 20px 20px;
+}
+
+.concerts-no{
+	width:100%;
+	background: #F3F2F2;
+	box-sizing: border-box;
+	padding:  20px;
+	margin-bottom: 20px;
+}
+
+.concerts-no h2{
+	margin-top: 0px;
+}
+.concerts-si{
+	width:100%;
+	background: #F3F2F2;
+	box-sizing: border-box;
+	padding: 20px;
+	
+}
+span.destacat{
+	color:#E91010;
+}
+table.listados{
+	width:100%;
+}
+table tr td{text-align: center;}
+/*-------------END estils local-------------------------*/
+
+/*------------- START Media queries local--------------- */
+
+@media screen and (max-width:900px){
+	body{
+		background:#F65555;
+	}
+	#localconcerts{
+		width:100%;
+	}
+
+
+@media screen and (max-width:900px){
+	aside, footer{
+		display: none;
+	}	
+}
+
+/*-------------END media queries homepage--------------------*/

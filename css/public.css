@@ -1,0 +1,137 @@
+
+/*HOMEPAGE*/
+/*------------START estils homepage--------------------*/
+
+#slider img{
+	width: 100%;
+	height: auto;
+}
+
+.cercador{
+	width: 100%;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.cercador form{
+	width:100%;
+	box-sizing: border-box;
+}
+
+.cercador input{
+	width: 82%;
+	height: 25px;
+  	padding: 10px 16px;
+  	font-size: 18px;
+   	border-color: ##9D9D9D;
+}
+
+.cercador button{
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 52px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+.cercador button:hover {
+ 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#contingut, #alta-validacio{
+  	background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+    color: #565454;
+    padding: 20px;
+	margin-bottom: 20px;
+}
+
+#alta-validacio{
+	margin-top: 60px;
+}
+#agenda-concerts{
+	
+	width:33%;
+	float:left;	
+	
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+
+#agenda-concerts h2, #ranking-musics h2, banners-patrocinadors h2{
+	color: #333333;
+}
+
+#ranking-musics{
+	width:33%;
+	float:left;	
+	
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#ranking-musics img{
+	width:10%;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-bottom: 4px;
+}
+#banners-patrocinadors{
+	width:34%;
+	float:left;		
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+#banners-patrocinadors img{
+	width: 100%;
+	height: auto;
+
+}
+
+#contingut::after, #alta-validacio::after {
+	clear: both;
+	color: #fff;
+	content:"." ;
+
+} 
+
+
+#alta-usuari, #validacio-usuari{
+	
+	width:50%;
+	float:left;	
+	
+	box-sizing: border-box;
+	padding: 20px;
+}
+
+
+
+/*-------------END estils homepage-------------------------*/
+
+/*------------- START Media queries Homepage--------------- */
+
+@media screen and (max-width:900px){
+	body{
+		background:#F65555;
+	}
+	#agenda-concerts,#ranking-musics,#banners-patrocinadors{
+		width:100%;
+	}
+
+
+@media screen and (max-width:500px){
+	aside, footer{
+		display: none;
+	}	
+}
+
+/*-------------END media queries homepage--------------------*/
