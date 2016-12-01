@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Registre Usuari Concerts i locals de música en directe</title>
+	<meta name="Description" content="Conecta locales con músicos: Tienes un local y buscas músicos?Eres Músico y buscas un local donde poder actuar">
+	<link rel="stylesheet" href="css/global.css">
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/forms.css">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+	<div id="contenedor">
+		
+		<header id="main">
+			<div class="logo"><a href="index.html"><img src="imatges/ohhhmusic.png" alt="Ohhhmusic"></a></div>
+				
+			<div class="opcions-menu">
+					<div class="idiomes">
+							<ul>
+							<li><a href="http://">Español</a></li>
+							<li><a href="http://">Català</a></li>
+							</ul>
+					</div>
+
+					
+						<nav class="opcions-menu-general-registre">
+							<ul>
+								<li><a href="http://">Què és ohhhmusic?</a></li>
+								<li><a href="http://">Tens un Local Musical?</a></li>
+								<li><a href="http://">Eres Músic?</a></li>
+								<li><a href="http://">Segueix l'actualitat musical.</a></li>							
+
+								<li class="registrat-entra"><a href="http://">Registra't</a></li>
+								<li class="registrat-entra"><a href="http://">Entra</a></li>
+							</ul>
+
+						</nav>
+					
+			</div>
+		</header>
+		
+		
+		<div id="alta-validacio">
+
+			<div id="alta-usuari">
+					
+
+			      <form action="index.html" method="post">
+			      
+			        <h1>Encara no m'he registrat</h1>
+			        
+			        <fieldset>
+			          <legend><span class="number">1</span>Informació bàsica</legend>
+			          <label for="nom">Nom:</label>
+			          <input type="text" id="name" name="user_nom">
+			          
+					  <label for="cognoms">Cognoms:</label>
+			          <input type="text" id="cognoms" name="user_cognoms">
+			          
+
+			          <label for="mail">Email:</label>
+			          <input type="email" id="mail" name="user_email">
+			       </fieldset>
+
+			        <fieldset>  
+			         <legend><span class="number">2</span>Dades de validació</legend>
+					  <label for="usuari">Usuari:</label>
+			          <input type="text" id="usuari" name="usuari">
+
+			          <label for="password">Contrasenya:</label>
+			          <input type="password" id="password" name="user_password">          
+			         
+			        </fieldset>
+			        
+			        <fieldset>
+			          <legend><span class="number">3</span>Perfil</legend>        
+			         
+			          <input type="radio" id="perfil" value="LOCAL" name="tipo_perfil"><label class="light" for="tipo_perfil"><a href="local.html">LOCAL</a></label><br>
+
+			            <input type="radio" id="perfil" value="MUSIC" name="tipo_perfil"><label class="light" for="tipo_perfil"><a href="musico.html">MÚSIC</a></label><br>
+
+			          <input type="radio" id="perfil" value="FAN" name="tipo_perfil"><label class="light" for="tipo_perfil"><a href="fan.html">FAN</a></label>
+			        
+			        </fieldset>
+			        <button type="submit">ALTA</button>
+			      </form>
+
+
+
+					
+			</div>
+			
+			<div id="validacio-usuari">
+					
+
+ 				 <form action="index.html" method="post">
+			      
+			        <h1>Ja estic registrat</h1>
+			        
+			        <fieldset>
+			        
+			          <label for="nom">Usuari:</label>
+			          <input type="text" id="name" name="user_nom">
+			          
+			          <label for="password">Contrasenya:</label>
+			          <input type="password" id="password" name="user_password">          
+			         
+			        </fieldset>
+			        
+
+			        <button type="submit">ENTRAR</button>
+			        <a href="">* No recordo la meva contrasenya</a>
+			      </form>
+
+
+
+
+					
+			</div>
+			<div style="clear: both;"></div>
+		
+		</div>
+
+		<footer >
+			<div class="avis-legal">
+				<ul>
+					<li><a href="http://">Avis Legal</a></li>
+					<li>Copyright 2016 Barcelona</li>
+				</ul>
+			</div>
+			<div class="menu-captacio">
+				<ul>
+					<li><a href="http://">Què és ohhhmusic?</a></li>
+					<li><a href="http://">Tens un Local Musical?. Vols organitzar un concert?</a></li>
+					<li><a href="http://">Eres Músic? Vols coneixer locals on actuar?</a></li>
+					<li><a href="http://">T'agradaria coneixer als teus idols locals</a></li>			
+				</ul>
+			</div>
+			<div class="contacta">
+				<ul>
+					<li>Email: info@ohhhmusic.com</li>
+					<li>Pelai 8, Barcelona</li>
+					<li>Tèl: 93 30100200</li>
+					<li>Facebook - Twitter</li>
+				</ul>
+			</div>
+		</footer>
+	</div>
+
+</body>
+</html>
